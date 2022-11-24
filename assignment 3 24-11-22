@@ -1,0 +1,5 @@
+s=int(input('student marks'))
+if s<=30:
+    print('fail')
+if s>=30:
+    print('pass')
