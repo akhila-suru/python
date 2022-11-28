@@ -1,0 +1,6 @@
+a=int(input())
+if a==532190:
+    print('continue the transaction')
+else:
+    print('incorrect pin number')
+    
