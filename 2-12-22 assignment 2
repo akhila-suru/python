@@ -1,0 +1,9 @@
+@@ -0,0 +1,8 @@
+def vote(a,b):
+    if a>18:
+        print(b,'eligible for vote')
+    else:
+        print(b,'not eligible for vote')
+b=input('enter your name:')
+a=int(input('enter your age:'))
+vote(a,b)
