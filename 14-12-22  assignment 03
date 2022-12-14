@@ -1,0 +1,15 @@
+l=[]
+
+n=int(input("enter your size:"))
+l=list(map(int,input().split()))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+k=set(l)    
+print(k)
+k1=len(k)
+
+if k1==n:
+    print("No")
+else:
+    print("Yes")
